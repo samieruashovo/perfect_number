@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-bool isPerfect(int num) {
-    int sum = 0;
-    for (int i = 1; i < num; i++) {
+bool isPerfect(unsigned long long int num) {
+    unsigned long long int sum = 0;
+    for (unsigned long long int i = 1; i < num; i++) {
         if (num % i == 0) {
             sum += i;
         }
@@ -12,7 +12,7 @@ bool isPerfect(int num) {
 }
 
 int main() {
-    for (int num = 6;; num++) {
+    for (unsigned long long int num = 6;; num++) {
         if (isPerfect(num)) {
             cout << num << " is a perfect number." << endl;
         }
