@@ -14,4 +14,6 @@ Another example is the number 28. Its factors are 1, 2, 4, 7, 14, and 28. If we 
 
 Once again, the sum of its factors (excluding itself) equals the number itself. So, 28 is also a perfect number.
 
+Euclid, over two thousand years ago, showed that all even perfect numbers can be represented by, N = 2p-1(2p -1) where p is a prime for which 2p -1 is a Mersenne prime.
+
 Perfect numbers are pretty cool because there aren't many of them, and mathematicians have been fascinated by them for centuries!
